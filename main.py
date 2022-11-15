@@ -19,3 +19,17 @@ Bonus Points:
 (5 points): As a developer, I want to choose from a List of 3 possible weapons before a robot makes an attack.
 
 (5 points): As a developer, I want to create Fleet and Herd classes, allowing for a list of 3 Robots to battle against a list of 3 Dinosaurs. """
+
+import random
+from dragon import Dragon
+from raptor import Raptor
+from trex import Trex
+from bender import Bender
+from droid import Droid
+from roomba import Roomba
+
+player_one = Raptor()
+player_two = Roomba()
+
+print (player_one)
+print (player_two)

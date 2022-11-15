@@ -9,5 +9,4 @@ class Dragon:
     
     
     def attack(self, opponent: object):
-        self.hp -= opponent.attack_list      #need to fill in
-        opponent.hp -= self.attack_list [random.choice(self.attack_list)]
+        opponent.hp -= self.attack_list [random.choice((len(self.attack_list)))]
