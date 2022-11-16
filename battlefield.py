@@ -1,4 +1,7 @@
+from robot import Robot
+from dinosaur import Dinosaur
+
 class Battlefield:
-   
-    def __init__ (self, name):
-        self.name = name
+    
+    def __init__ (self):
+        
