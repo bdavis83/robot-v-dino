@@ -13,6 +13,7 @@ class Battlefield:
 
     def run_game (self):
         self.display_welcome ()
+        self.print_opponents ()
         self.battle_phase ()
         self.display_winner ()
         pass
@@ -23,7 +24,7 @@ class Battlefield:
         print ('\n Welcome to ROBO VS DINO, where past meets future!  Only one can win!\n')
 
     def print_opponents (self):
-        print(f"\n Your oppoents are {self.player_one} and {self.player_two}!\n")
+        print(f"\n Your oppoents are {self.player_one.name} and {self.player_two.name}!\n")
 
     
     def battle_phase (self):
