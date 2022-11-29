@@ -1,4 +1,4 @@
 class Weapon:
-    def __init__ (self, name, attack_power: int):
-        self.name = "Metal Fist"
-        self.attack_power = 20
+    def __init__ (self, name, attack_power):
+        self.name = name
+        self.attack_power = attack_power
