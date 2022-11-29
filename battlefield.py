@@ -37,7 +37,7 @@ class Battlefield:
 
     def display_winner (self):
         if self.player_one.health <0:
-            print (f"{self.player_two.name} is the winner!")
+            print (f"\n{self.player_two.name} is the winner!\n")
         elif self.player_two.health <0:
-            print (f"{self.player_two.name} is the winner!")
+            print (f"\n{self.player_two.name} is the winner!\n")
         pass
